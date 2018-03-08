@@ -3,17 +3,28 @@ body {
 	background-color: #373C38;
 }
 div.banner {
+	float: left;
 	width: 800px;
 	height: 1466px;
 	position: relative;
-	display: block;
 	border: 1px solid #555;
 	background: 
 		url(tashigan.jpg) no-repeat -800px 0px,
+		url(tashigan_icon.jpg) no-repeat;
+}
+div.ano_banner {
+	float: left;
+	top: 300px;
+	width: 600px;
+	height: 600px;
+	background: 
 		url(tashigan_icon.jpg) no-repeat;
 }
 div.banner:hover, div.banner:focus {
 
 	background-position: 0 0,0 0;
 	transition: .2s ease-out .2s;
+}
+div.banner:hover>.ano_banner, div.banner:focus>.ano_banner {
+	background: -200px -200px;
 }

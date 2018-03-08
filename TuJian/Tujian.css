@@ -1,0 +1,39 @@
+.box {
+	width: 800px;
+	height: 1466px;
+	position: relative;
+}
+.a, .b, .c, .d, .e, .f {
+	width: 800px;
+	height: 245px;
+	/*background: url(tashigan_icon.jpg) no-repeat;
+*/}
+.a>.A, .b>.B, .c>.C, .d>.D, .e>.E, .f>.F {
+	position: absolute;
+}
+.A, .B, .C, .D, .E, .F {
+	left: -900px;
+	top: 0px;
+	transition: all .2s ease-in-out .2s;
+	/*display: none;*/
+}
+.a:hover>.A, .a:focus>.A,
+.b:hover>.B, .b:focus>.B,
+.c:hover>.C, .c:focus>.C,
+.d:hover>.D, .d:focus>.D,
+.e:hover>.E, .e:focus>.E,
+.f:hover>.F, .f:focus>.F {
+	/*display: inline;*/
+	left: 0px;
+	top: 0px;
+	transition: all .2s ease-in-out .2s;
+}
+
+/*.A {
+	width: 800px;
+	height: 1466px;
+	background: url(tashigan.jpg) no-repeat;
+}
+.a:hover, .a:focus {
+	width: 400px;
+}*/
