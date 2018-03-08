@@ -1,0 +1,19 @@
+body {
+	padding: 20px;
+	background-color: #373C38;
+}
+div.banner {
+	width: 800px;
+	height: 1466px;
+	position: relative;
+	display: block;
+	border: 1px solid #555;
+	background: 
+		url(tashigan.jpg) no-repeat -800px 0px,
+		url(tashigan_icon.jpg) no-repeat;
+}
+div.banner:hover, div.banner:focus {
+
+	background-position: 0 0,0 0;
+	transition: .2s ease-out .2s;
+}
